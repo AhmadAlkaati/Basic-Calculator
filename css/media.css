@@ -3,7 +3,7 @@
     grid-template-rows: repeat(5, 60px);
   }
   footer {
-    bottom: 0.3rem;
+    bottom: 0;
   }
 }
 
