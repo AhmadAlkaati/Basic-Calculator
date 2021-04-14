@@ -1,0 +1,27 @@
+@media (max-width: 1300px) {
+  .calculator .calculator-body {
+    grid-template-rows: repeat(5, 60px);
+  }
+  footer {
+    bottom: 0.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 28px;
+  }
+  .calculator .calculator-body {
+    grid-template-columns: repeat(4, 70px);
+  }
+  .calculator .calculator-body button:not(.operator):hover {
+    background: grey;
+  }
+}
+
+@media (max-width: 400px) {
+  .calculator .calculator-body {
+    grid-template-columns: repeat(4, 64px);
+  }
+}
+/*# sourceMappingURL=media.css.map */
